@@ -3,7 +3,7 @@ import Navbar from './components/Navbar';
 import HeroSection from './pages/herosection';
 import Review from './components/Review';
 import Footer from './components/Footer';
-import ContactForm from './pages/ContactForm';
+// import ContactForm from './pages/ContactForm'; 
 export default function Example() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
@@ -12,7 +12,7 @@ export default function Example() {
       <Navbar mobileMenuOpen={mobileMenuOpen} setMobileMenuOpen={setMobileMenuOpen} />
       <HeroSection />
       <Review />
-      <ContactForm />
+      {/* <ContactForm /> */}
       <Footer />
     </div>
   );
