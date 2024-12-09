@@ -3,11 +3,11 @@ import { FaInstagram, FaWhatsapp, FaSnapchat } from "react-icons/fa";
 
 function Footer() {
   return (
-    <div className="main w-full p-2 pt-8     text-black bg-white">
+    <div className="main w-full p-2 pt-8 text-black bg-white">
       <div className="f1">
         <div className="p1 p-4">
           <div className="join p-3 pt-10 uppercase tracking-wider leading-snug font-semibold">
-            <div className="flex lg:flex-1">
+            <div className="urdu flex lg:flex-1">
               <a href="#" className="-m-1.5 p-1.5">
                 <span className="text-[#FFD700]">ركن</span>
                 <span className="text-black"> الضيافة</span>
@@ -18,7 +18,7 @@ function Footer() {
 
         <div className="p2">
         <div className="mt-10">
-          <div className="grid grid-cols-3 gap-7">
+          <div className=" item grid grid-cols-3 gap-7">
             <a href="#home" className="text-lg text-gray-700">
               Home
             </a>
